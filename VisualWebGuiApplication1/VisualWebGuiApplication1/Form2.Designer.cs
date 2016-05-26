@@ -32,6 +32,7 @@ namespace VisualWebGuiApplication1
         private void InitializeComponent()
         {
             this.button1 = new Gizmox.WebGUI.Forms.Button();
+            this.listBox1 = new Gizmox.WebGUI.Forms.ListBox();
             this.SuspendLayout();
             // 
             // button1
@@ -42,8 +43,16 @@ namespace VisualWebGuiApplication1
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             // 
+            // listBox1
+            // 
+            this.listBox1.Location = new System.Drawing.Point(302, 211);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(100, 95);
+            this.listBox1.TabIndex = 1;
+            // 
             // Form2
             // 
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button1);
             this.Size = new System.Drawing.Size(419, 466);
             this.Text = "Form2";
@@ -55,5 +64,6 @@ namespace VisualWebGuiApplication1
         #endregion
 
         private Button button1;
+        private ListBox listBox1;
     }
 }
