@@ -30,11 +30,12 @@ namespace VisualWebGuiApplication1
         {
             this.textBox1 = new Gizmox.WebGUI.Forms.TextBox();
             this.listBox1 = new Gizmox.WebGUI.Forms.ListBox();
+            this.label1 = new Gizmox.WebGUI.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(185, 131);
+            this.textBox1.Location = new System.Drawing.Point(158, 122);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 0;
@@ -46,8 +47,18 @@ namespace VisualWebGuiApplication1
             this.listBox1.Size = new System.Drawing.Size(100, 95);
             this.listBox1.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(316, 151);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "label1";
+            // 
             // Form1
             // 
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox1);
             this.Size = new System.Drawing.Size(597, 425);
@@ -60,5 +71,6 @@ namespace VisualWebGuiApplication1
 
         private Gizmox.WebGUI.Forms.TextBox textBox1;
         private Gizmox.WebGUI.Forms.ListBox listBox1;
+        private Gizmox.WebGUI.Forms.Label label1;
     }
 }
