@@ -31,6 +31,7 @@ namespace VisualWebGuiApplication1
             this.textBox1 = new Gizmox.WebGUI.Forms.TextBox();
             this.listBox1 = new Gizmox.WebGUI.Forms.ListBox();
             this.label1 = new Gizmox.WebGUI.Forms.Label();
+            this.checkBox1 = new Gizmox.WebGUI.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -56,8 +57,18 @@ namespace VisualWebGuiApplication1
             this.label1.TabIndex = 2;
             this.label1.Text = "label1";
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(341, 231);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(77, 17);
+            this.checkBox1.TabIndex = 3;
+            this.checkBox1.Text = "checkBox1";
+            // 
             // Form1
             // 
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox1);
@@ -72,5 +83,6 @@ namespace VisualWebGuiApplication1
         private Gizmox.WebGUI.Forms.TextBox textBox1;
         private Gizmox.WebGUI.Forms.ListBox listBox1;
         private Gizmox.WebGUI.Forms.Label label1;
+        private Gizmox.WebGUI.Forms.CheckBox checkBox1;
     }
 }
