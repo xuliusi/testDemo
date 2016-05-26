@@ -26,5 +26,10 @@ namespace VisualWebGuiApplication1
         {
 
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add(textBox1.Text);
+        }
     }
 }
